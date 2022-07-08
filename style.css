@@ -278,3 +278,9 @@ h4 {
 		font-size: 2.2rem;
 	}
 }
+
+@media screen and (max-height: 650px) {
+	.earth-icon {
+		bottom: 1rem;
+	}
+}
