@@ -148,7 +148,8 @@ let galaxies = gsap
 		},
 		'-=1'
 	)
-	.to('.impossible', {
+	.to('.galaxies h2', {
 		clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0 100%)',
 		duration: 2.6,
+		stagger: 1,
 	});
